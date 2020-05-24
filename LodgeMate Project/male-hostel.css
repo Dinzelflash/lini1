@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    font-family: 'Lato', 'Arial', sans-serif!important;
+	font-weight: 300;
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa!important;
+    color: #555!important;
+	scroll-behavior: smooth;
+}
+
+/*--- HEADER ---*/
+.navbar {
+    box-shadow: 0px 2px 10px hsl(229, 6%, 66%);
+    background-color: #fff;
+    font-size: 1.1em;
+}
+
+#image {
+    height: 10%;
+    width: 20%;
+    margin-left: 50px;
+}
+
+.text-color {
+    color: #f3a26c!important;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.text-color:hover {
+    color: #fe8c40!important;
+   
+}
+
+
+
+
+/*--- FEATURES ---*/
+
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #fe8c40;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+	margin-top: 30px;
+}
+
+
+.fa-sort-amount-desc:before {
+    content: "\f161";
+}
+
+.filter-sort{
+    display: inline-block;
+    float: left;
+    line-height: 36px;
+    font-size: 13px;
+}
+
+.filter-button{
+    padding: 2px 7px;
+    margin: 3px 9px 3px 0;
+    color: #222;
+    font-size: 13px;
+    line-height: 24px;
+    border-radius: 0;
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.active-filter :hover {
+    color: #fe8c40 !important;
+    padding: 2px 7px;
+    margin: 3px 9px 3px 0;
+    color: #222;
+    font-size: 13px;
+    line-height: 24px;
+    border-radius: 0;
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.filters{
+    background-color: #f2f2f2;
+}
+
+/* lodges */
+.lodge1{
+    background-image: url(img/lodge.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lodge2{
+    background-image: url(img/lodge2.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lodge3{
+    background-image: url(img/lodge3.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lodge4{
+    background-image: url(img/lodge4.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lodge5{
+    background-image: url(img/lodge.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lodge6{
+    background-image: url(img/lodge.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-lodge{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+/* needs to be more specific with the selector */
+.text-lodge {
+    transition: 1s;
+    color: transparent;
+    font-weight: 600;
+}
+
+.text-lodge:hover {
+    font-weight: 100;
+    color: whitesmoke;
+}
+
+.img-darken {
+    transition: 0.5s;
+    filter: brightness(50%);
+}
+
+
+
+
+footer {
+    border-top: 5px solid #fe8c40;
+    width: 100%;
+}
+
+.footer-nav > p{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+
+
+.footer-flex {
+    padding-top: 20px;
+    word-spacing: 3px;
+}
+.footer-text {
+    text-decoration: none;
+    color: #fe8c40;
+}
+
+.footer-text:hover {
+    text-decoration: none;
+    color: #f07321;
+}
